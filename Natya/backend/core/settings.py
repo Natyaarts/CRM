@@ -26,9 +26,10 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-production-key-change-t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['3.110.83.233', 'crm.natyaarts.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['3.110.83.233', 'crm.natyaarts.com', 'crm.natyaarts.org', 'localhost', '127.0.0.1']
 
 CSRF_TRUSTED_ORIGINS = [
+    'https://crm.natyaarts.org',
     'https://crm.natyaarts.com',
     'http://3.110.83.233',
 ]
