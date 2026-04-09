@@ -1,0 +1,24 @@
+# OS stuff
+.DS_Store
+Thumbs.db
+
+# Backend
+Natya/backend/db.sqlite3
+Natya/backend/__pycache__/
+Natya/backend/*.pyc
+Natya/backend/media/
+Natya/backend/lead_documents/
+Natya/backend/staticfiles/
+Natya/backend/.env
+
+# Frontend
+Natya/frontend/node_modules/
+Natya/frontend/dist/
+Natya/frontend/.env
+Natya/frontend/.env.local
+
+# Extras
+.vscode/
+.idea/
+*.log
+temp_restore/
